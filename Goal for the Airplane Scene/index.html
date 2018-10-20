@@ -1,0 +1,22 @@
+<html>
+	<head>
+	<title>A-Frame VR Airplane Scene</title>
+		<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+		
+		<!-- This environment component by feiss is nice -->
+		<script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
+		
+		<script src="airplane.js"></script>
+	</head>
+	<body>
+		<a-scene>
+		
+			<!-- Here is our environment -->
+			<a-entity environment="preset: default"></a-entity>
+			
+			<a-camera id="cam" airplane wasd-controls="fly: true">
+				<a-box color="#e5a21b" scale="2 0.2 0.2" position="0 -.9 -1"></a-box>
+			</a-camera>
+		</a-scene>
+	</body>
+</html>
