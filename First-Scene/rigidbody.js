@@ -1,5 +1,5 @@
 /**
-	A-Frame Component: body
+	A-Frame Component: rigidbody
 	
 	Author: Paul Armstrong
 
@@ -12,7 +12,7 @@
 **/
 
 
-AFRAME.registerComponent("body", {
+AFRAME.registerComponent("rigidbody", {
 	schema: {
 		velocity: {type: "vec3", default: new THREE.Vector3(0,0,0)},
 		dampenVelocity: {type: "boolean", default: true}
