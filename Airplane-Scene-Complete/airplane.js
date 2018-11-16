@@ -41,10 +41,8 @@ AFRAME.registerComponent("airplane", {
 	onKeyDown: function (evt) {
 		if (evt.keyCode == 84) { // T
 			this.data.speed *= 1.5;
-			console.log("ree");
 		} else if (evt.keyCode == 71) { // G
 			this.data.speed /= 1.5;
-	//	} else if (evt.keyCode == 32) { // Space bar	
 		}
 	},
 	onKeyUp: function (evt) {
