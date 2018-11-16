@@ -9,7 +9,13 @@
 	Schema:
 		speed - the speed of the airplane in units per second
 
+	T key: 84
+	G key: 71
+	Space bar: 32
+	
+	window.addEventListener("event", function);
 **/
+
 
 
 AFRAME.registerComponent("airplane", {

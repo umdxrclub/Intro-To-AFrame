@@ -1,7 +1,5 @@
 /**
 	A-Frame Component: airplane
-	
-	Author: Paul Armstrong
 
 	Description:
 		This component will turn the entity into a player controller airplane
@@ -36,7 +34,6 @@ AFRAME.registerComponent("airplane", {
 	},
 	tick: function (time, timeDelta) {
 		
-	
 	},
 	onKeyDown: function (evt) {
 
